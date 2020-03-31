@@ -99,6 +99,7 @@ body {
     border-radius: 8px;
     margin-right: 10px;
     font-weight: 700;
+    width: 50px;
 }
 
 .descrip {
@@ -169,7 +170,7 @@ input:checked + .switch:before {
 
 /* Slider */
 .slidecontainer {
-    flex: 1 1 80%;
+    flex: 1 1 60%;
 }
 
 .slider {

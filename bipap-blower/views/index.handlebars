@@ -5,12 +5,12 @@
     <div class="stats">
         <div class="stat-box">
             <div class="stat-title">Max Pres.</div>
-            <div class="stat-value">34</div>
+            <div class="stat-value" id="max-pres">34</div>
             <div class="stat-unit">psi</div>
         </div>
         <div class="stat-box">
             <div class="stat-title">Min Pres.</div>
-            <div class="stat-value">10</div>
+            <div class="stat-value" id="min-pres">10</div>
             <div class="stat-unit">psi</div>
         </div>
         <div class="stat-box">
@@ -33,36 +33,36 @@
 <div class="col-right">
     <div class="component">
         <label class="switch-container">
-            <input type="checkbox" checked />
+            <input type="checkbox" id="on-off-switch" />
             <span class="switch round"></span>
         </label>
-        <div class="descrip">ON/OFF <br><span>Running for: 02:34:67</span></div>
+        <div class="descrip">ON/OFF <br><span>Running for: <span class="timer">00:00:00</span></span></div>
     </div>
     <div class="component">
         <div class="count-content"><span class="output"></span></div>
         <div class="slidecontainer">
-            <input type="range" min="1" max="100" value="50" class="slider" id="range1">
+            <input type="range" min="1" max="100" step="0.1" value="50" class="slider" id="range1">
         </div>
         <div class="descrip">Max Pressure</div>
     </div>
     <div class="component">
         <div class="count-content"><span class="output"></span></div>
         <div class="slidecontainer">
-            <input type="range" min="1" max="100" value="50" class="slider" id="range2">
+            <input type="range" min="1" max="100" step="0.1" value="50" class="slider" id="range2">
         </div>
         <div class="descrip">Min Pressure</div>
     </div>
     <div class="component">
         <div class="count-content"><span class="output"></span></div>
         <div class="slidecontainer">
-            <input type="range" min="1" max="100" value="50" class="slider" id="range3">
+            <input type="range" min="1" max="100" step="0.1"  value="50" class="slider" id="range3">
         </div>
         <div class="descrip">State Change Sensitivity</div>
     </div>
     <div class="component">
         <div class="count-content"><span class="output"></span></div>
         <div class="slidecontainer">
-            <input type="range" min="1" max="100" value="50" class="slider" id="range4">
+            <input type="range" min="1" max="100" step="0.1"  value="50" class="slider" id="range4">
         </div>
         <div class="descrip">State Change Speed</div>
     </div>
