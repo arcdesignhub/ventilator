@@ -1,0 +1,25 @@
+{
+  "name": "bipap-blower",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "nodemon server.js",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arcdesignhub/ventilator.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/arcdesignhub/ventilator/issues"
+  },
+  "homepage": "https://github.com/arcdesignhub/ventilator#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^4.0.0",
+    "nodemon": "^2.0.2"
+  }
+}
