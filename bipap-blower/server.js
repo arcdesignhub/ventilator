@@ -15,7 +15,7 @@ app.use(express.static('public'));
 
 // Root
 app.get('/',function(req,res,next){
-    let context = {};
+    let context = { };
     res.render('index', context);
 });
 

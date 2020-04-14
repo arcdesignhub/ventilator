@@ -71,7 +71,7 @@ function resetTimer(timer){
     timer.difference = 0;
     timer.paused = 0;
     timer.running = 0;
-    timer.timerDisplay.innerHTML = "00:00:00:00";
+    timer.timerDisplay.innerHTML = "00:00:00";
 }
 
 // Get time
