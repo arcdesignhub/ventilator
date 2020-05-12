@@ -1,0 +1,15 @@
+{
+  "name": "pressure",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "author": "",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "i2c-bus": "^5.2.0",
+    "onoff": "^6.0.0"
+  }
+}

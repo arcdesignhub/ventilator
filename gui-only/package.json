@@ -21,10 +21,8 @@
     "@svgdotjs/svg.js": "^3.0.16",
     "express": "^4.17.1",
     "express-handlebars": "^4.0.0",
-    "i2c-bus": "^5.2.0",
+    "i2c-bus": "^5.1.0",
     "nodemon": "^2.0.2",
-    "onoff": "^6.0.0",
-    "spi-device": "^3.1.0",
     "svgjs": "^2.6.2"
   }
 }

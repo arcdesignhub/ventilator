@@ -41,20 +41,8 @@ window.addEventListener('DOMContentLoaded', (event) => {
     // Detect change for turning on/off
     document.getElementById("on-off-switch").addEventListener('change', function(event) {
         if(this.checked) {
-			let postReq = new XMLHttpRequest();
-
-			postReq.open("POST", "/start", true);
-			postReq.setRequestHeader('Content-Type', 'application/json');
-			postReq.send("");
-
             startTimer(manualTimer);
         } else {
-			let postReq = new XMLHttpRequest();
-
-			postReq.open("POST", "/stop", true);
-			postReq.setRequestHeader('Content-Type', 'application/json');
-			postReq.send("");
-
             resetTimer(manualTimer);
         }
     });

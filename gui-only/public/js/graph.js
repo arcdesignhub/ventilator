@@ -2,8 +2,7 @@
 window.addEventListener('DOMContentLoaded', (event) => {
     // Scatterplot, with x and y coordinates
     // Eventually use GET request to get data
-    // This is merely demo data
-    
+
     var content = {
         x: [1, 2, 3, 4, 5],
         y: [1, 3, 1, 4, 1],
