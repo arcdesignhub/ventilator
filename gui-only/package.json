@@ -19,7 +19,7 @@
   "homepage": "https://github.com/arcdesignhub/ventilator#readme",
   "dependencies": {
     "@svgdotjs/svg.js": "^3.0.16",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "express-handlebars": "^4.0.0",
     "i2c-bus": "^5.1.0",
     "nodemon": "^2.0.2",
